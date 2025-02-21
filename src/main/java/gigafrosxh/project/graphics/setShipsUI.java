@@ -37,6 +37,7 @@ public class setShipsUI extends JFrame {
         setSize(500, 450);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+        setLocationRelativeTo(null);
 
         btnSubmit.addActionListener(new ActionListener() {
             @Override

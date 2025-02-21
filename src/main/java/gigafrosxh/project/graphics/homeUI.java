@@ -20,6 +20,7 @@ public class homeUI extends JFrame {
         setSize(500, 450);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+        setLocationRelativeTo(null);
 
 
         btStart.addActionListener(new ActionListener() {

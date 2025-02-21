@@ -1,0 +1,101 @@
+[20:8:41] -----------------New Log Start--------------------
+[20:8:41] Test info at gigafrosxh.project.SinkShipsMain
+[20:8:41] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:8:41] Test Error at gigafrosxh.project.SinkShipsMain
+[20:8:41] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:8:42] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:9:1] -----------------New Log Start--------------------
+[20:9:1] Test info at gigafrosxh.project.SinkShipsMain
+[20:9:1] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:9:1] Test Error at gigafrosxh.project.SinkShipsMain
+[20:9:1] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:9:2] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:9:3] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:9:3] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:9:10] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:9:10] Setting up Play Vs CPU at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:2] -----------------New Log Start--------------------
+[20:10:2] Test info at gigafrosxh.project.SinkShipsMain
+[20:10:2] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:10:2] Test Error at gigafrosxh.project.SinkShipsMain
+[20:10:2] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:10:2] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:10:3] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:10:3] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:10:5] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:10:5] Setting up Play Vs CPU at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:7] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:13] Enemy attack 2!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:10:13] Usr POS [0!1, 1!1, 1!0]
+[20:10:13] Attacker hit? false
+[20:10:16] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:19] Enemy attack 1!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:10:19] Usr POS [0!1, 1!1, 1!0]
+[20:10:19] Attacker hit? true
+[20:10:23] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:25] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:26] Enemy attack 0!2 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:10:26] Usr POS [0!1, 1!0]
+[20:10:26] Attacker hit? false
+[20:10:31] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:32] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:35] Enemy attack 1!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:10:35] Usr POS [0!1, 1!0]
+[20:10:35] Attacker hit? true
+[20:10:41] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:46] Enemy attack 0!2 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:10:46] Usr POS [0!1]
+[20:10:46] Attacker hit? false
+[20:10:49] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:50] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[20:10:50] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:10:55] Enemy attack 0!2 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:10:55] Usr POS [0!1]
+[20:10:55] Attacker hit? false
+[20:11:36] -----------------New Log Start--------------------
+[20:11:36] Test info at gigafrosxh.project.SinkShipsMain
+[20:11:36] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:11:36] Test Error at gigafrosxh.project.SinkShipsMain
+[20:11:36] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:11:36] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:11:37] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:11:37] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:11:39] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:11:39] Setting up Play Vs CPU at gigafrosxh.project.graphics.playVSCPUUI
+[20:11:41] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:11:47] Enemy attack 2!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:11:47] Usr POS [1!1, 0!0, 0!1]
+[20:11:47] Attacker hit? false
+[20:11:53] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:11:55] Enemy attack 2!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:11:55] Usr POS [1!1, 0!0, 0!1]
+[20:11:55] Attacker hit? false
+[20:11:58] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:1] Enemy attack 1!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:12:1] Usr POS [1!1, 0!0, 0!1]
+[20:12:1] Attacker hit? false
+[20:12:3] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:8] Enemy attack 0!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:12:8] Usr POS [1!1, 0!0, 0!1]
+[20:12:8] Attacker hit? true
+[20:12:11] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:16] Enemy attack 0!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:12:16] Usr POS [1!1, 0!1]
+[20:12:16] Attacker hit? true
+[20:12:21] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:22] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:24] Enemy attack 2!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:12:24] Usr POS [1!1]
+[20:12:24] Attacker hit? false
+[20:12:26] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:33] Enemy attack 2!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:12:33] Usr POS [1!1]
+[20:12:33] Attacker hit? false
+[20:12:38] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:39] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:44] Enemy attack 1!2 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:12:44] Usr POS [1!1]
+[20:12:44] Attacker hit? false
+[20:12:47] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:48] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[20:12:48] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI

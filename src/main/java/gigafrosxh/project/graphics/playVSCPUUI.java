@@ -38,9 +38,7 @@ public class playVSCPUUI extends JFrame {
         setSize(500, 450);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
-
-
-
+        setLocationRelativeTo(null);
 
         selectPos.addActionListener(new ActionListener() {
             @Override
@@ -76,41 +74,42 @@ public class playVSCPUUI extends JFrame {
                         MessageBox ip = new MessageBox("You Won!", "Winner");
                         homeUI hu = new homeUI();
                         setVisible(false);
-                    }
-
-
-                    Thread.sleep(new Random().nextInt(1000, 5829));
-
-                    CPUActions ca = new CPUActions();
-                    String cpuAttack = ca.attack();
-                    SinkShipsMain.logger.info("Enemy attack " + cpuAttack + " at " + playVSCPUUI.class.getName() + "/" + CPUActions.class.getName());
-
-                    BufferedReader br1 = new BufferedReader(
-                            new FileReader("shipPosUsr.dat"));
-                    String[] x = br1.readLine().split(";");
-                    ArrayList<String> usrPOS = new ArrayList<>(Arrays.asList(x));
-                    SinkShipsMain.logger.info("Usr POS " + usrPOS);
-                    SinkShipsMain.logger.info("Attacker hit? " + usrPOS.contains(cpuAttack));
-
-                    if (usrPOS.contains(cpuAttack)) {
-                        MessageBox mb = new MessageBox("Der Gegner hat ein Schiff getroffen " + cpuAttack, "Getroffen");
-                        usrPOS.remove(cpuAttack);
-
-                        try (BufferedWriter bw = new BufferedWriter(
-                                new FileWriter("shipPosUsr.dat", false))) {
-                            String updatedPos = String.join(";", usrPOS);
-                            bw.write(updatedPos);
-                        } catch (IOException ex) {
-                            SinkShipsMain.logger.error(ex.getMessage() + " at " + playVSCPUUI.class.getName());
-                        }
                     } else {
-                        MessageBox ip = new MessageBox("Der Gegner hat kein Schiff getroffen!", "Daneben");
-                    }
 
-                    if (usrPOS.isEmpty()) {
-                        MessageBox ip = new MessageBox("Verloren", "Verlierer");
-                        homeUI hu = new homeUI();
-                        setVisible(false);
+
+                        Thread.sleep(new Random().nextInt(1000, 5829));
+
+                        CPUActions ca = new CPUActions();
+                        String cpuAttack = ca.attack();
+                        SinkShipsMain.logger.info("Enemy attack " + cpuAttack + " at " + playVSCPUUI.class.getName() + "/" + CPUActions.class.getName());
+
+                        BufferedReader br1 = new BufferedReader(
+                                new FileReader("shipPosUsr.dat"));
+                        String[] x = br1.readLine().split(";");
+                        ArrayList<String> usrPOS = new ArrayList<>(Arrays.asList(x));
+                        SinkShipsMain.logger.info("Usr POS " + usrPOS);
+                        SinkShipsMain.logger.info("Attacker hit? " + usrPOS.contains(cpuAttack));
+
+                        if (usrPOS.contains(cpuAttack)) {
+                            MessageBox mb = new MessageBox("Der Gegner hat ein Schiff getroffen " + cpuAttack, "Getroffen");
+                            usrPOS.remove(cpuAttack);
+
+                            try (BufferedWriter bw = new BufferedWriter(
+                                    new FileWriter("shipPosUsr.dat", false))) {
+                                String updatedPos = String.join(";", usrPOS);
+                                bw.write(updatedPos);
+                            } catch (IOException ex) {
+                                SinkShipsMain.logger.error(ex.getMessage() + " at " + playVSCPUUI.class.getName());
+                            }
+                        } else {
+                            MessageBox ip = new MessageBox("Der Gegner hat kein Schiff getroffen!", "Daneben");
+                        }
+
+                        if (usrPOS.isEmpty()) {
+                            MessageBox ip = new MessageBox("Verloren", "Verlierer");
+                            homeUI hu = new homeUI();
+                            setVisible(false);
+                        }
                     }
 
 
