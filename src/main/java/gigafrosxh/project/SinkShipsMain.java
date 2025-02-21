@@ -7,9 +7,11 @@ public class SinkShipsMain {
     public static final Logger logger = new Logger();
 
     public static void main(String[] args) {
-        logger.info("Setting up Classes for " + SinkShipsMain.class.getName());
-        logger.error("Test Error at " + SinkShipsMain.class.getName());
+        logger.info("Test info at " + SinkShipsMain.class.getName());
         logger.warning("Test Warning at " + SinkShipsMain.class.getName());
+        logger.error("Test Error at " + SinkShipsMain.class.getName());
+
+        logger.info("Setting up classes at " + SinkShipsMain.class.getName());
         homeUI homeUI = new homeUI();
     }
 }
