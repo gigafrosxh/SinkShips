@@ -1,16 +1,18 @@
 package gigafrosxh.project.graphics;
 
 import gigafrosxh.project.SinkShipsMain;
+import gigafrosxh.project.util.MessageBox;
 import gigafrosxh.project.util.IllegalShipException;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.*;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
+import java.util.regex.PatternSyntaxException;
 
 public class setShipsUI extends JFrame {
     private JPanel mainPanel;
@@ -40,25 +42,38 @@ public class setShipsUI extends JFrame {
                 try {
                     fieldsArr = fields.split(";");
 
-                    if (fieldsArr.length == 0 || fieldsArr.length > 3) {
-                        throw new IllegalShipException("Too many ships chosen at: " + fields);
+                    if (fieldsArr.length != 3) {
+                        throw new IllegalShipException("Invalid amount of chosen sips: " + fields);
                     } else {
                         try (BufferedWriter bw = new BufferedWriter(
                                 new FileWriter("src/main/resources/assets/sinkships/data/shipPos/shipPosUsr.dat", false))) {
+                            int checkVal = 0;
                             for (String s : fieldsArr) {
                                 if (s.matches("^[0-2]![0-2]$")) {
                                     bw.write(s + ";");
+                                    checkVal++;
+                                    if (checkVal == 3) {
+                                        playVSCPUUI pvc = new playVSCPUUI();
+                                        setVisible(false);
+                                    }
                                 } else {
                                     throw new IllegalShipException("Invalid ship position: " + s);
                                 }
                             }
                         } catch (IllegalShipException ex) {
                             SinkShipsMain.logger.error(ex.getMessage() + " at " + setShipsUI.class.getName());
+                            MessageBox ip = new MessageBox(ex.getMessage(), "Illegal Ship Placement");
+
                         }
+
                     }
                 } catch (Exception ex) {
                     SinkShipsMain.logger.error(ex.getMessage() + " at " + setShipsUI.class.getName());
+                    MessageBox ip = new MessageBox(ex.getMessage(), "Illegal Ship Placement");
+
                 }
+
+
 
                 try (BufferedWriter bw = new BufferedWriter(new FileWriter(
                         "src/main/resources/assets/sinkships/data/shipPos/shipPosCPU.dat", false))) {
@@ -81,10 +96,6 @@ public class setShipsUI extends JFrame {
                 } catch (Exception ex) {
                     SinkShipsMain.logger.error(ex.getMessage() + " at " + setShipsUI.class.getName());
                 }
-
-                playVSCPUUI pv = new playVSCPUUI();
-                setVisible(false);
-
 
             }
         });
