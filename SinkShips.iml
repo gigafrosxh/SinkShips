@@ -37,4 +37,11 @@
       </library>
     </orderEntry>
   </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/src/main/kotlin" />
+      </list>
+    </option>
+  </component>
 </module>
