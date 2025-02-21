@@ -46,7 +46,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Contributors
 - [gigafrosxh](https://github.com/gigafrosxh)
-- [MOXXL](https://github.com/besentreiber)
+- [MOXXL](https://github.com/M0XXL)
 
 ### Contact
 - Git
