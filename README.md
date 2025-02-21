@@ -50,3 +50,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Contact
 - Git
+- Mail: [gigafrosxh@gmail.com](gigafrosxh@gmail.com)
+
+### Where do I find executables?
+- .exe files at [src/main/resources/util/executable/windows](src/main/resources/util/executable/windows)
+- .jar files at: [out/artifacts](out/artifacts)
