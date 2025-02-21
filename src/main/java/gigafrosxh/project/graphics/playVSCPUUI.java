@@ -39,7 +39,7 @@ public class playVSCPUUI extends JFrame {
                 SinkShipsMain.logger.info("Pressed button " + e.getActionCommand() + " at " + playVSCPUUI.class.getName());
                 String attack = positions.getText();
 
-                try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/assets/sinkships/data/shipPos/shipPosCPU.dat"))) {
+                try (BufferedReader br = new BufferedReader(new FileReader("shipPosCPU.dat"))) {
 
                     String[] f = br.readLine().split(";");
                     ArrayList<String> cpuPOS = new ArrayList<>(Arrays.asList(f));
@@ -53,7 +53,7 @@ public class playVSCPUUI extends JFrame {
                         cpuPOS.remove(attack);
 
                         try (BufferedWriter bw = new BufferedWriter(
-                                new FileWriter("src/main/resources/assets/sinkships/data/shipPos/shipPosCPU.dat", false))) {
+                                new FileWriter("shipPosCPU.dat", false))) {
                             String updatedPos = String.join(";", cpuPOS);
                             bw.write(updatedPos);
                         } catch (IOException ex) {
@@ -77,7 +77,7 @@ public class playVSCPUUI extends JFrame {
                     SinkShipsMain.logger.info("Enemy attack " + cpuAttack + " at " + playVSCPUUI.class.getName() + "/" + CPUActions.class.getName());
 
                     BufferedReader br1 = new BufferedReader(
-                            new FileReader("src/main/resources/assets/sinkships/data/shipPos/shipPosUsr.dat"));
+                            new FileReader("shipPosUsr.dat"));
                     String[] x = br1.readLine().split(";");
                     ArrayList<String> usrPOS = new ArrayList<>(Arrays.asList(x));
                     SinkShipsMain.logger.info("Usr POS " + usrPOS);
@@ -88,7 +88,7 @@ public class playVSCPUUI extends JFrame {
                         usrPOS.remove(cpuAttack);
 
                         try (BufferedWriter bw = new BufferedWriter(
-                                new FileWriter("src/main/resources/assets/sinkships/data/shipPos/shipPosUsr.dat", false))) {
+                                new FileWriter("shipPosUsr.dat", false))) {
                             String updatedPos = String.join(";", usrPOS);
                             bw.write(updatedPos);
                         } catch (IOException ex) {

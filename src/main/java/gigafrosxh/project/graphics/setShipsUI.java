@@ -46,7 +46,7 @@ public class setShipsUI extends JFrame {
                         throw new IllegalShipException("Invalid amount of chosen sips: " + fields);
                     } else {
                         try (BufferedWriter bw = new BufferedWriter(
-                                new FileWriter("src/main/resources/assets/sinkships/data/shipPos/shipPosUsr.dat", false))) {
+                                new FileWriter("shipPosUsr.dat", false))) {
                             int checkVal = 0;
                             for (String s : fieldsArr) {
                                 if (s.matches("^[0-2]![0-2]$")) {
@@ -76,7 +76,7 @@ public class setShipsUI extends JFrame {
 
 
                 try (BufferedWriter bw = new BufferedWriter(new FileWriter(
-                        "src/main/resources/assets/sinkships/data/shipPos/shipPosCPU.dat", false))) {
+                        "shipPosCPU.dat", false))) {
 
                     Set<String> uniqueStrings = new HashSet<>();
                     Random random = new Random();
