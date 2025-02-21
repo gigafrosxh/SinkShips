@@ -1,0 +1,8 @@
+[18:4:23] -----------------New Log Start--------------------
+[18:4:23] Test info at gigafrosxh.project.SinkShipsMain
+[18:4:23] Test Warning at gigafrosxh.project.SinkShipsMain
+[18:4:23] Test Error at gigafrosxh.project.SinkShipsMain
+[18:4:23] Setting up classes at gigafrosxh.project.SinkShipsMain
+[18:4:24] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[18:4:24] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[18:4:24] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI

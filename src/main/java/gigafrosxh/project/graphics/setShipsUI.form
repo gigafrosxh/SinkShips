@@ -33,8 +33,10 @@
           </grid>
         </constraints>
         <properties>
+          <font name="Arial Black" style="0"/>
           <text value=""/>
           <toolTipText value="Boot Positionen (mit ; getrennt)"/>
+          <verifyInputWhenFocusTarget value="false"/>
         </properties>
       </component>
       <grid id="ea2a1" binding="field" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
