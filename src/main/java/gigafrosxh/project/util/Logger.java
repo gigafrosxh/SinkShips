@@ -1,5 +1,9 @@
 package gigafrosxh.project.util;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.LocalDateTime;
 
 public class Logger {
@@ -7,24 +11,35 @@ public class Logger {
     public Logger() {
         String time = (LocalDateTime.now()).getHour() + ":" + (LocalDateTime.now()).getMinute() + ":" + (LocalDateTime.now()).getSecond();
 
-        System.out.println("[\033[34m" + time + "\033[32m]" + " \033[34mLogger call action at " + Thread.currentThread().getName());
+        writeLog("-----------------New Log Start--------------------", time);
     }
 
     public void info(String msg) {
         String time = (LocalDateTime.now()).getHour() + ":" + (LocalDateTime.now()).getMinute() + ":" + (LocalDateTime.now()).getSecond();
 
         System.out.println("\033[32m[\033[34m" + time + "\033[32m]" + " \033[34m" + msg);
+        writeLog(msg, time);
     }
 
     public void error(String msg) {
         String time = (LocalDateTime.now()).getHour() + ":" + (LocalDateTime.now()).getMinute() + ":" + (LocalDateTime.now()).getSecond();
 
         System.out.println("\033[31m[\033[37m" + time + "\033[31m]" + " \033[31m" + msg);
+        writeLog(msg, time);
     }
 
     public void warning(String msg) {
         String time = (LocalDateTime.now()).getHour() + ":" + (LocalDateTime.now()).getMinute() + ":" + (LocalDateTime.now()).getSecond();
 
         System.out.println("\033[33m[\033[37m" + time + "\033[33m]" + " \033[33m" + msg);
+        writeLog(msg, time);
+    }
+
+    private void writeLog(String msg, String time) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("log.txt", true))) {
+            bw.write("[" + time + "] " + msg +"\n");
+        } catch (IOException ex) {
+            throw new RuntimeException(ex.getMessage());
+        }
     }
 }
