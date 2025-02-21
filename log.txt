@@ -6,3 +6,55 @@
 [18:4:24] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
 [18:4:24] Pressed button Start at gigafrosxh.project.graphics.homeUI
 [18:4:24] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[18:46:25] -----------------New Log Start--------------------
+[18:46:25] Test info at gigafrosxh.project.SinkShipsMain
+[18:46:25] Test Warning at gigafrosxh.project.SinkShipsMain
+[18:46:25] Test Error at gigafrosxh.project.SinkShipsMain
+[18:46:25] Setting up classes at gigafrosxh.project.SinkShipsMain
+[18:46:25] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[18:58:35] -----------------New Log Start--------------------
+[18:58:35] Test info at gigafrosxh.project.SinkShipsMain
+[18:58:35] Test Warning at gigafrosxh.project.SinkShipsMain
+[18:58:35] Test Error at gigafrosxh.project.SinkShipsMain
+[18:58:35] Setting up classes at gigafrosxh.project.SinkShipsMain
+[18:58:36] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[19:4:45] -----------------New Log Start--------------------
+[19:4:45] INFO
+[19:5:32] -----------------New Log Start--------------------
+[19:5:32] INFO
+[19:7:5] -----------------New Log Start--------------------
+[19:7:5] INFO
+[19:7:28] -----------------New Log Start--------------------
+[19:7:28] INFO
+[19:7:38] -----------------New Log Start--------------------
+[19:7:38] INFO
+[19:8:27] -----------------New Log Start--------------------
+[19:8:27] INFO
+[19:9:2] -----------------New Log Start--------------------
+[19:9:2] INFO
+[19:9:34] -----------------New Log Start--------------------
+[19:9:34] INFO
+[19:10:7] -----------------New Log Start--------------------
+[19:10:7] INFO
+[19:10:21] -----------------New Log Start--------------------
+[19:10:21] INFO
+[19:10:28] -----------------New Log Start--------------------
+[19:10:28] INFO
+[19:10:41] -----------------New Log Start--------------------
+[19:10:41] INFO
+[19:10:57] -----------------New Log Start--------------------
+[19:10:57] INFO
+[19:11:58] -----------------New Log Start--------------------
+[19:11:58] INFO
+[19:11:58] -----------------New Log Start--------------------
+[19:11:58] INFO
+[19:12:51] -----------------New Log Start--------------------
+[19:12:51] INFO
+[19:12:51] -----------------New Log Start--------------------
+[19:12:51] INFO
+[19:13:28] -----------------New Log Start--------------------
+[19:13:28] INFO
+[19:13:28] -----------------New Log Start--------------------
+[19:13:28] INFO
+[19:13:28] -----------------New Log Start--------------------
+[19:13:28] INFO
