@@ -8,19 +8,25 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
-import java.util.regex.PatternSyntaxException;
 
 public class setShipsUI extends JFrame {
     private JPanel mainPanel;
     private JLabel title;
     private JButton btnSubmit;
-    private JTextField boatPos;
-    private JPanel field;
-    private JLabel fieldImg;
+    private JTextField positions;
+    private JPanel fields;
+    private JButton posNine;
+    private JButton posSeven;
+    private JButton posEight;
+    private JButton posSix;
+    private JButton posFive;
+    private JButton posFour;
+    private JButton posThree;
+    private JButton posTwo;
+    private JButton posOne;
 
     public setShipsUI() {
         SinkShipsMain.logger.info("Setting up set Ships UI at " + setShipsUI.class.getName());
@@ -36,7 +42,7 @@ public class setShipsUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 SinkShipsMain.logger.info("Pressed button " + e.getActionCommand() + " at " + setShipsUI.class.getName());
-                String fields = boatPos.getText();
+                String fields = positions.getText();
 
                 String[] fieldsArr;
                 try {
@@ -99,5 +105,61 @@ public class setShipsUI extends JFrame {
 
             }
         });
+
+        posOne.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "0!0" : positions.getText() + ";0!0");
+            }
+        });
+        posTwo.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "0!1" : positions.getText() + ";0!1");
+            }
+        });
+        posThree.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "0!2" : positions.getText() + ";0!2");
+            }
+        });
+        posFour.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "1!0" : positions.getText() + ";1!0");
+            }
+        });
+        posFive.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "1!1" : positions.getText() + ";1!1");
+            }
+        });
+        posSix.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "1!2" : positions.getText() + ";1!2");
+            }
+        });
+        posSeven.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "2!0" : positions.getText() + ";2!0");
+            }
+        });
+        posEight.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "2!1" : positions.getText() + ";2!1");
+            }
+        });
+        posNine.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText(positions.getText().isEmpty() ? "2!2" : positions.getText() + ";2!2");
+            }
+        });
     }
+
 }

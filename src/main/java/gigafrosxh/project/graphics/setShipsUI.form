@@ -26,7 +26,7 @@
           <text value="OK"/>
         </properties>
       </component>
-      <component id="1ef75" class="javax.swing.JTextField" binding="boatPos">
+      <component id="1ef75" class="javax.swing.JTextField" binding="positions">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -39,7 +39,7 @@
           <verifyInputWhenFocusTarget value="false"/>
         </properties>
       </component>
-      <grid id="ea2a1" binding="field" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="cf859" binding="fields" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -47,13 +47,76 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="3dc0a" class="javax.swing.JLabel" binding="fieldImg">
+          <component id="27c72" class="javax.swing.JButton" binding="posNine">
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <icon value="assets/sinkships/textures/field/img.png"/>
-              <text value=""/>
+              <text value="2!2"/>
+            </properties>
+          </component>
+          <component id="bc23" class="javax.swing.JButton" binding="posSeven">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="2!0"/>
+            </properties>
+          </component>
+          <component id="31bea" class="javax.swing.JButton" binding="posEight">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="2!1"/>
+            </properties>
+          </component>
+          <component id="2c412" class="javax.swing.JButton" binding="posSix">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="1!2"/>
+            </properties>
+          </component>
+          <component id="49403" class="javax.swing.JButton" binding="posFive">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="1!1"/>
+            </properties>
+          </component>
+          <component id="76e4f" class="javax.swing.JButton" binding="posFour">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="1!0"/>
+            </properties>
+          </component>
+          <component id="a53aa" class="javax.swing.JButton" binding="posThree">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="0!2"/>
+            </properties>
+          </component>
+          <component id="47b82" class="javax.swing.JButton" binding="posTwo">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="0!1"/>
+            </properties>
+          </component>
+          <component id="ebd93" class="javax.swing.JButton" binding="posOne">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="0!0"/>
             </properties>
           </component>
         </children>

@@ -10,17 +10,24 @@ import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 public class playVSCPUUI extends JFrame {
     private JPanel mainPanel;
     private JLabel title;
     private JPanel fields;
-    private JLabel fieldsImg;
     private JTextField positions;
     private JButton selectPos;
     private JLabel hitPos;
+    private JButton posNine;
+    private JButton posSeven;
+    private JButton posEight;
+    private JButton posSix;
+    private JButton posFive;
+    private JButton posFour;
+    private JButton posThree;
+    private JButton posTwo;
+    private JButton posOne;
 
     public playVSCPUUI() {
         SinkShipsMain.logger.info("Setting up Play Vs CPU at " + playVSCPUUI.class.getName());
@@ -31,6 +38,8 @@ public class playVSCPUUI extends JFrame {
         setSize(500, 450);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+
+
 
 
         selectPos.addActionListener(new ActionListener() {
@@ -110,6 +119,62 @@ public class playVSCPUUI extends JFrame {
                 }
             }
         });
+
+        posOne.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("0!0");
+            }
+        });
+        posTwo.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("0!1");
+            }
+        });
+        posThree.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("0!2");
+            }
+        });
+        posFour.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("1!0");
+            }
+        });
+        posFive.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("1!1");
+            }
+        });
+        posSix.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("1!2");
+            }
+        });
+        posSeven.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("2!0");
+            }
+        });
+        posEight.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("2!1");
+            }
+        });
+        posNine.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                positions.setText("2!2");
+            }
+        });
+
     }
 }
 
