@@ -5,7 +5,9 @@
     <constraints>
       <xy x="20" y="20" width="638" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-11625316"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="eb5e1" class="javax.swing.JLabel" binding="title">
@@ -14,6 +16,7 @@
         </constraints>
         <properties>
           <font name="Arial Black" size="26" style="1"/>
+          <foreground color="-394241"/>
           <text value="Wähle eine Angriffsposition aus!"/>
         </properties>
       </component>
@@ -22,7 +25,9 @@
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-11625316"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="27c72" class="javax.swing.JButton" binding="posNine">
@@ -30,6 +35,9 @@
               <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="2!2"/>
             </properties>
           </component>
@@ -38,6 +46,9 @@
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="2!0"/>
             </properties>
           </component>
@@ -46,6 +57,9 @@
               <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="2!1"/>
             </properties>
           </component>
@@ -54,6 +68,9 @@
               <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="1!2"/>
             </properties>
           </component>
@@ -62,6 +79,9 @@
               <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="1!1"/>
             </properties>
           </component>
@@ -70,6 +90,9 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="1!0"/>
             </properties>
           </component>
@@ -78,6 +101,9 @@
               <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="0!2"/>
             </properties>
           </component>
@@ -86,6 +112,9 @@
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="0!1"/>
             </properties>
           </component>
@@ -94,6 +123,9 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-13947601"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-394241"/>
               <text value="0!0"/>
             </properties>
           </component>
@@ -105,13 +137,18 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13947601"/>
+          <foreground color="-591621"/>
+        </properties>
       </component>
       <component id="10a8a" class="javax.swing.JButton" binding="selectPos">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-13947601"/>
+          <foreground color="-591621"/>
           <text value="OK"/>
         </properties>
       </component>

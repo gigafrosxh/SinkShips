@@ -9,6 +9,7 @@ import java.awt.event.ActionListener;
 public class homeUI extends JFrame {
     private JButton btStart;
     private JPanel mainPanel;
+    private JButton exit;
 
     public homeUI() {
         SinkShipsMain.logger.info("Setting up Home Menu UI at " + homeUI.class.getName());
@@ -30,6 +31,15 @@ public class homeUI extends JFrame {
 
                 setShipsUI ssui = new setShipsUI();
                 setVisible(false);
+            }
+        });
+        exit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                SinkShipsMain.logger.info("Pressed button " + e.getActionCommand() + " at " + homeUI.class.getName());
+                try {Thread.sleep(2000);} catch (InterruptedException ex) {throw new RuntimeException(ex);}
+                SinkShipsMain.logger.info("Quitting Game. Goodbye :`(");
+                dispose();
             }
         });
     }

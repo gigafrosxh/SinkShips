@@ -99,3 +99,164 @@
 [20:12:47] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
 [20:12:48] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
 [20:12:48] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:14:13] -----------------New Log Start--------------------
+[20:14:13] Test info at gigafrosxh.project.SinkShipsMain
+[20:14:13] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:14:13] Test Error at gigafrosxh.project.SinkShipsMain
+[20:14:13] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:14:13] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:14:14] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:14:14] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:14:19] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:14:19] Invalid amount of chosen sips: 0!1;1!1;2!1;2!1;2!1;2!1;2!1;2!1 at gigafrosxh.project.graphics.setShipsUI
+[20:15:16] -----------------New Log Start--------------------
+[20:15:16] Test info at gigafrosxh.project.SinkShipsMain
+[20:15:16] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:15:16] Test Error at gigafrosxh.project.SinkShipsMain
+[20:15:16] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:15:16] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:15:17] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:15:17] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:15:19] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:15:19] Invalid amount of chosen sips: 0!1;1!1;1!1;1!1;1!1;1!1 at gigafrosxh.project.graphics.setShipsUI
+[20:15:51] -----------------New Log Start--------------------
+[20:15:51] Test info at gigafrosxh.project.SinkShipsMain
+[20:15:51] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:15:51] Test Error at gigafrosxh.project.SinkShipsMain
+[20:15:51] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:15:51] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:15:52] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:15:52] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:15:54] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:15:54] Invalid amount of chosen sips: 1!1;1!1;1!1;1!1;1!1 at gigafrosxh.project.graphics.setShipsUI
+[20:15:57] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:15:57] Setting up Play Vs CPU at gigafrosxh.project.graphics.playVSCPUUI
+[20:16:0] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:16:1] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[20:16:2] Enemy attack 1!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:16:2] Usr POS [0!0, 0!2, 0!1]
+[20:16:2] Attacker hit? false
+[20:22:44] -----------------New Log Start--------------------
+[20:22:44] Test info at gigafrosxh.project.SinkShipsMain
+[20:22:44] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:22:44] Test Error at gigafrosxh.project.SinkShipsMain
+[20:22:44] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:22:44] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:23:13] -----------------New Log Start--------------------
+[20:23:13] Test info at gigafrosxh.project.SinkShipsMain
+[20:23:13] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:23:13] Test Error at gigafrosxh.project.SinkShipsMain
+[20:23:13] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:23:14] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:23:15] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[20:23:15] Quitting Game. Good Bye
+[20:23:35] -----------------New Log Start--------------------
+[20:23:35] Test info at gigafrosxh.project.SinkShipsMain
+[20:23:35] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:23:35] Test Error at gigafrosxh.project.SinkShipsMain
+[20:23:35] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:23:35] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:23:36] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[20:23:38] Quitting Game. Good Bye.
+[20:24:4] -----------------New Log Start--------------------
+[20:24:4] Test info at gigafrosxh.project.SinkShipsMain
+[20:24:4] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:24:4] Test Error at gigafrosxh.project.SinkShipsMain
+[20:24:4] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:24:4] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:24:5] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[20:24:7] Quitting Game. Good Bye.
+[20:24:15] -----------------New Log Start--------------------
+[20:24:15] Test info at gigafrosxh.project.SinkShipsMain
+[20:24:15] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:24:15] Test Error at gigafrosxh.project.SinkShipsMain
+[20:24:15] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:24:15] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:24:16] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[20:24:18] Quitting Game. Good Bye.
+[20:25:1] -----------------New Log Start--------------------
+[20:25:1] Test info at gigafrosxh.project.SinkShipsMain
+[20:25:1] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:25:1] Test Error at gigafrosxh.project.SinkShipsMain
+[20:25:1] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:25:2] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:25:2] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[20:25:4] Quitting Game. Goodbye :`(.
+[20:25:22] -----------------New Log Start--------------------
+[20:25:22] Test info at gigafrosxh.project.SinkShipsMain
+[20:25:22] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:25:22] Test Error at gigafrosxh.project.SinkShipsMain
+[20:25:22] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:25:22] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:25:23] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[20:25:25] Quitting Game. Goodbye :´(
+[20:26:0] -----------------New Log Start--------------------
+[20:26:0] Test info at gigafrosxh.project.SinkShipsMain
+[20:26:0] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:26:0] Test Error at gigafrosxh.project.SinkShipsMain
+[20:26:0] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:26:1] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:26:1] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[20:26:3] Quitting Game. Goodbye :`(
+[20:26:21] -----------------New Log Start--------------------
+[20:26:21] Test info at gigafrosxh.project.SinkShipsMain
+[20:26:21] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:26:21] Test Error at gigafrosxh.project.SinkShipsMain
+[20:26:21] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:26:21] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:26:34] -----------------New Log Start--------------------
+[20:26:34] Test info at gigafrosxh.project.SinkShipsMain
+[20:26:34] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:26:34] Test Error at gigafrosxh.project.SinkShipsMain
+[20:26:34] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:26:34] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:27:44] -----------------New Log Start--------------------
+[20:27:44] Test info at gigafrosxh.project.SinkShipsMain
+[20:27:44] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:27:44] Test Error at gigafrosxh.project.SinkShipsMain
+[20:27:44] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:27:45] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:28:1] -----------------New Log Start--------------------
+[20:28:1] Test info at gigafrosxh.project.SinkShipsMain
+[20:28:1] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:28:1] Test Error at gigafrosxh.project.SinkShipsMain
+[20:28:1] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:28:1] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:28:31] -----------------New Log Start--------------------
+[20:28:31] Test info at gigafrosxh.project.SinkShipsMain
+[20:28:31] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:28:31] Test Error at gigafrosxh.project.SinkShipsMain
+[20:28:31] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:28:32] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:29:24] -----------------New Log Start--------------------
+[20:29:24] Test info at gigafrosxh.project.SinkShipsMain
+[20:29:24] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:29:24] Test Error at gigafrosxh.project.SinkShipsMain
+[20:29:24] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:29:24] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:29:26] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:29:26] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:32:24] -----------------New Log Start--------------------
+[20:32:24] Test info at gigafrosxh.project.SinkShipsMain
+[20:32:24] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:32:24] Test Error at gigafrosxh.project.SinkShipsMain
+[20:32:24] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:32:24] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:32:25] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:32:25] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:32:29] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:32:29] Setting up Play Vs CPU at gigafrosxh.project.graphics.playVSCPUUI
+[20:33:36] -----------------New Log Start--------------------
+[20:33:37] Test info at gigafrosxh.project.SinkShipsMain
+[20:33:37] Test Warning at gigafrosxh.project.SinkShipsMain
+[20:33:37] Test Error at gigafrosxh.project.SinkShipsMain
+[20:33:37] Setting up classes at gigafrosxh.project.SinkShipsMain
+[20:33:37] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[20:33:38] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[20:33:38] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[20:33:41] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[20:33:41] Setting up Play Vs CPU at gigafrosxh.project.graphics.playVSCPUUI
+[20:33:44] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[20:33:51] Enemy attack 0!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[20:33:51] Usr POS [0!0, 0!1, 0!2]
+[20:33:51] Attacker hit? true

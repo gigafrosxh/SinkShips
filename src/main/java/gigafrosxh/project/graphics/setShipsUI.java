@@ -71,12 +71,15 @@ public class setShipsUI extends JFrame {
                             SinkShipsMain.logger.error(ex.getMessage() + " at " + setShipsUI.class.getName());
                             MessageBox ip = new MessageBox(ex.getMessage(), "Illegal Ship Placement");
 
+                            positions.setText("");
+
                         }
 
                     }
                 } catch (Exception ex) {
                     SinkShipsMain.logger.error(ex.getMessage() + " at " + setShipsUI.class.getName());
                     MessageBox ip = new MessageBox(ex.getMessage(), "Illegal Ship Placement");
+                    positions.setText("");
 
                 }
 
