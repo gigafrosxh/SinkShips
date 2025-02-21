@@ -1,25 +1,52 @@
 # SinkShips
 
-SinkShips ist ein einfaches, aber fesselndes Schiffs-Sinkspiel, das den klassischen "Schiffe versenken"-Spielmechanismus aufgreift. Es bietet eine Benutzeroberfläche, mit der du gegen den Computer oder einen anderen Spieler antreten kannst.
+SinkShips is a similar but addictive ship-sinking game that takes on the classic “sink ships” game mechanic. It offers a user interface that allows you to compete against the computer or another player.
 
 ## Features
 
-- **Schiffe versenken**: Setze deine Schiffe und versuche, die deines Gegners zu versenken.
-- **Mehrspieler**: Spiele gegen einen Freund oder gegen den Computer.
-- **Einfache Bedienung**: Eine benutzerfreundliche Oberfläche, die es dir ermöglicht, schnell ins Spiel einzutauchen.
-- **Spielfortschritt**: Verfolge deine Siege und Verluste.
+- **Sink Ships**: Place your ships and try to sink your opponents' ships.
+- **Multiplayer**: Play against a friend or against the computer.
+- **Easy to use**: A user-friendly interface that allows you to quickly dive into the game.
+- **Game Progress**: Track your siege and losses.
 
 ## Installation
 
-### Voraussetzungen
-Stelle sicher, dass du die folgenden Softwarepakete auf deinem System installiert hast:
+### Requirements
+Make sure you have the following software packages installed on your system:
 
 - [Java 8+](https://www.java.com/en/download/)
 - [Git](https://git-scm.com/)
 
-### So installierst du das Projekt:
+### How to install the project:
 
-1. Klone das Repository:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/gigafrosxh/SinkShips.git
+   Git clone https://github.com/gigafrosxh/SinkShips.git
+   ```
+2. Entries in the project's directory
+3. Compile the project
+   ```bash
+   javac SinkShipsMain.java
+   ```
+4. Start the game
+   ```bash
+   java SinkShipsMain
+   ```
+
+### Usage
+
+1. Start the game as explained in step 4 above
+2. Select the position of your ship (e.g.: 0!1;2!0;2!1)
+3. Select the position to attack (e.g.: 1!2)
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Contributors
+- [gigafrosxh](https://github.com/gigafrosxh)
+- [MOXXL](https://github.com/besentreiber)
+
+### Contact
+- Git
