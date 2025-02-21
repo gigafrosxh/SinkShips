@@ -5,7 +5,7 @@ SinkShips is a similar but addictive ship-sinking game that takes on the classic
 ## Features
 
 - **Sink Ships**: Place your ships and try to sink your opponents' ships.
-- **Multiplayer**: Play against a friend or against the computer.
+- **Multiplayer**: Play against a friend or against the computer. (Multiplayer is still in work for more info write [me](https://www.gmail.com))
 - **Easy to use**: A user-friendly interface that allows you to quickly dive into the game.
 - **Game Progress**: Track your siege and losses.
 
@@ -14,7 +14,7 @@ SinkShips is a similar but addictive ship-sinking game that takes on the classic
 ### Requirements
 Make sure you have the following software packages installed on your system:
 
-- [Java 8+](https://www.java.com/en/download/)
+- [Java 21 or higher](https://www.java.com/en/download/)
 - [Git](https://git-scm.com/)
 
 ### How to install the project:
@@ -22,7 +22,7 @@ Make sure you have the following software packages installed on your system:
 1. Clone the repository:
 
    ```bash
-   Git clone https://github.com/gigafrosxh/SinkShips.git
+   git clone https://github.com/gigafrosxh/SinkShips.git
    ```
 2. Entries in the project's directory
 3. Compile the project
@@ -50,7 +50,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Contact
 - Git
-- Mail: [gigafrosxh@gmail.com](gigafrosxh@gmail.com)
+- Mail: [gigafrosxh@gmail.com](https://www.gmail.com)
 
 ### Where do I find executables?
 - .exe files at [src/main/resources/util/executable/windows](src/main/resources/util/executable/windows)
