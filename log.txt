@@ -304,3 +304,129 @@
 [21:29:40] INFO
 [21:29:40] -----------------New Log Start--------------------
 [21:29:40] INFO
+[10:27:5] -----------------New Log Start--------------------
+[10:27:5] Test info at gigafrosxh.project.SinkShipsMain
+[10:27:5] Test Warning at gigafrosxh.project.SinkShipsMain
+[10:27:5] Test Error at gigafrosxh.project.SinkShipsMain
+[10:27:5] Setting up classes at gigafrosxh.project.SinkShipsMain
+[10:27:6] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:27:7] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[10:27:7] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[10:27:10] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[10:27:10] Setting up Play Vs CPU at gigafrosxh.project.graphics.playVSCPUUI
+[10:27:18] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:27:20] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[10:27:24] Enemy attack 0!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:27:24] Usr POS [0!0, 0!1, 0!1]
+[10:27:24] Attacker hit? true
+[10:27:28] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:27:33] Enemy attack 2!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:27:33] Usr POS [0!1, 0!1]
+[10:27:33] Attacker hit? false
+[10:27:35] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:27:37] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[10:27:38] Enemy attack 2!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:27:38] Usr POS [0!1, 0!1]
+[10:27:38] Attacker hit? false
+[10:27:41] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:27:42] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[10:27:43] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:27:44] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[10:27:46] Quitting Game. Goodbye :`(
+[10:34:3] -----------------New Log Start--------------------
+[10:34:3] Test info at gigafrosxh.project.SinkShipsMain
+[10:34:3] Test Warning at gigafrosxh.project.SinkShipsMain
+[10:34:3] Test Error at gigafrosxh.project.SinkShipsMain
+[10:34:3] Setting up classes at gigafrosxh.project.SinkShipsMain
+[10:34:4] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:34:4] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[10:34:4] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[10:34:7] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[10:34:7] Ship cannot be placed on the same Position! at gigafrosxh.project.graphics.setShipsUI
+[10:34:12] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[10:34:12] Ship cannot be placed on the same Position! at gigafrosxh.project.graphics.setShipsUI
+[10:34:19] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[10:34:19] Ship cannot be placed on the same Position! at gigafrosxh.project.graphics.setShipsUI
+[10:34:22] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[10:34:22] Invalid amount of chosen sips: 1!1;0!1;0!2;0!0 at gigafrosxh.project.graphics.setShipsUI
+[10:34:32] -----------------New Log Start--------------------
+[10:34:32] Test info at gigafrosxh.project.SinkShipsMain
+[10:34:32] Test Warning at gigafrosxh.project.SinkShipsMain
+[10:34:32] Test Error at gigafrosxh.project.SinkShipsMain
+[10:34:32] Setting up classes at gigafrosxh.project.SinkShipsMain
+[10:34:32] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:34:34] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[10:34:34] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[10:34:39] Pressed button OK at gigafrosxh.project.graphics.setShipsUI
+[10:34:39] Setting up Play Vs CPU at gigafrosxh.project.graphics.playVSCPUUI
+[10:34:41] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:34:43] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[10:34:45] Enemy attack 2!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:34:45] Usr POS [0!0, 1!1, 2!0]
+[10:34:45] Attacker hit? false
+[10:34:47] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:34:51] Enemy attack 1!2 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:34:51] Usr POS [0!0, 1!1, 2!0]
+[10:34:51] Attacker hit? false
+[10:34:53] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:34:58] Enemy attack 1!0 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:34:58] Usr POS [0!0, 1!1, 2!0]
+[10:34:58] Attacker hit? false
+[10:35:0] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:35:3] Enemy attack 0!2 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:35:3] Usr POS [0!0, 1!1, 2!0]
+[10:35:3] Attacker hit? false
+[10:35:5] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:35:9] Enemy attack 1!2 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:35:9] Usr POS [0!0, 1!1, 2!0]
+[10:35:9] Attacker hit? false
+[10:35:11] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:35:13] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[10:35:16] Enemy attack 1!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:35:16] Usr POS [0!0, 1!1, 2!0]
+[10:35:16] Attacker hit? true
+[10:35:20] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:35:26] Enemy attack 1!1 at gigafrosxh.project.graphics.playVSCPUUI/gigafrosxh.project.cpu.CPUActions
+[10:35:26] Usr POS [0!0, 2!0]
+[10:35:26] Attacker hit? false
+[10:35:29] Pressed button OK at gigafrosxh.project.graphics.playVSCPUUI
+[10:35:30] Changed Label LabelUI at gigafrosxh.project.graphics.playVSCPUUI
+[10:35:31] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:35:32] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[10:35:34] Quitting Game. Goodbye :`(
+[10:36:27] -----------------New Log Start--------------------
+[10:36:27] Test info at gigafrosxh.project.SinkShipsMain
+[10:36:27] Test Warning at gigafrosxh.project.SinkShipsMain
+[10:36:27] Test Error at gigafrosxh.project.SinkShipsMain
+[10:36:27] Setting up classes at gigafrosxh.project.SinkShipsMain
+[10:36:27] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:36:28] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[10:36:30] Quitting Game. Goodbye :`(
+[10:36:37] -----------------New Log Start--------------------
+[10:36:37] Test info at gigafrosxh.project.SinkShipsMain
+[10:36:37] Test Warning at gigafrosxh.project.SinkShipsMain
+[10:36:37] Test Error at gigafrosxh.project.SinkShipsMain
+[10:36:37] Setting up classes at gigafrosxh.project.SinkShipsMain
+[10:36:37] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:36:45] -----------------New Log Start--------------------
+[10:36:45] Test info at gigafrosxh.project.SinkShipsMain
+[10:36:45] Test Warning at gigafrosxh.project.SinkShipsMain
+[10:36:45] Test Error at gigafrosxh.project.SinkShipsMain
+[10:36:45] Setting up classes at gigafrosxh.project.SinkShipsMain
+[10:36:45] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:36:46] Pressed button Exit at gigafrosxh.project.graphics.homeUI
+[10:36:48] Quitting Game. Goodbye :`(
+[10:36:56] -----------------New Log Start--------------------
+[10:36:56] Test info at gigafrosxh.project.SinkShipsMain
+[10:36:56] Test Warning at gigafrosxh.project.SinkShipsMain
+[10:36:56] Test Error at gigafrosxh.project.SinkShipsMain
+[10:36:56] Setting up classes at gigafrosxh.project.SinkShipsMain
+[10:36:56] Setting up Home Menu UI at gigafrosxh.project.graphics.homeUI
+[10:37:2] Pressed button Start at gigafrosxh.project.graphics.homeUI
+[10:37:2] Setting up set Ships UI at gigafrosxh.project.graphics.setShipsUI
+[10:38:23] -----------------New Log Start--------------------
+[10:38:23] INFO
+[10:38:23] -----------------New Log Start--------------------
+[10:38:23] ERROR
+[10:38:23] -----------------New Log Start--------------------
+[10:38:23] WARNING

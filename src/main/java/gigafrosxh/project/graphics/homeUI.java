@@ -40,6 +40,7 @@ public class homeUI extends JFrame {
                 try {Thread.sleep(2000);} catch (InterruptedException ex) {throw new RuntimeException(ex);}
                 SinkShipsMain.logger.info("Quitting Game. Goodbye :`(");
                 dispose();
+                System.exit(0);
             }
         });
     }

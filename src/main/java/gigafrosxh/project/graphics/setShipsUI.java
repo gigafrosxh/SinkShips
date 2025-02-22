@@ -3,6 +3,7 @@ package gigafrosxh.project.graphics;
 import gigafrosxh.project.SinkShipsMain;
 import gigafrosxh.project.util.MessageBox;
 import gigafrosxh.project.util.IllegalShipException;
+import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -48,6 +49,10 @@ public class setShipsUI extends JFrame {
                 String[] fieldsArr;
                 try {
                     fieldsArr = fields.split(";");
+                    if (isDup(fieldsArr)) {
+                        throw new IllegalShipException("Ship cannot be placed on the same Position!");
+                    }
+
 
                     if (fieldsArr.length != 3) {
                         throw new IllegalShipException("Invalid amount of chosen sips: " + fields);
@@ -164,6 +169,18 @@ public class setShipsUI extends JFrame {
                 positions.setText(positions.getText().isEmpty() ? "2!2" : positions.getText() + ";2!2");
             }
         });
+    }
+
+    private static <T> boolean isDup(@NotNull T[] array) {
+        HashSet<T> gesehen = new HashSet<>();
+
+        for (T element : array) {
+            if (gesehen.contains(element)) {
+                return true;
+            }
+            gesehen.add(element);
+        }
+        return false;
     }
 
 }

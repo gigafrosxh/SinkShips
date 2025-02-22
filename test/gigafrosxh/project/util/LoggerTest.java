@@ -33,7 +33,7 @@ class LoggerTest {
     void error() {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         PrintStream printStream = new PrintStream(outputStream);
-        String msg = "INFO";
+        String msg = "ERROR";
 
         System.setOut(printStream);
 
@@ -50,7 +50,7 @@ class LoggerTest {
     void warning() {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         PrintStream printStream = new PrintStream(outputStream);
-        String msg = "INFO";
+        String msg = "WARNING";
 
         System.setOut(printStream);
 
