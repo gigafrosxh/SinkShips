@@ -172,13 +172,13 @@ public class setShipsUI extends JFrame {
     }
 
     private static <T> boolean isDup(@NotNull T[] array) {
-        HashSet<T> gesehen = new HashSet<>();
+        HashSet<T> checked = new HashSet<>();
 
         for (T element : array) {
-            if (gesehen.contains(element)) {
+            if (checked.contains(element)) {
                 return true;
             }
-            gesehen.add(element);
+            checked.add(element);
         }
         return false;
     }
