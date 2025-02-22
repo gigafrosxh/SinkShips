@@ -1,7 +1,5 @@
 package gigafrosxh.project.cpu;
 
-import gigafrosxh.project.SinkShipsMain;
-
 import java.util.ArrayList;
 import java.util.Random;
 
