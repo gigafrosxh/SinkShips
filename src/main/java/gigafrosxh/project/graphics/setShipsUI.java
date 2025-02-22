@@ -171,7 +171,7 @@ public class setShipsUI extends JFrame {
         });
     }
 
-    private static <T> boolean isDup(@NotNull T[] array) {
+    private static <T> boolean isDup(T @NotNull [] array) {
         HashSet<T> checked = new HashSet<>();
 
         for (T element : array) {

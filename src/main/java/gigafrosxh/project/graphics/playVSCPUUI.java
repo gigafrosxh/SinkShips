@@ -76,7 +76,6 @@ public class playVSCPUUI extends JFrame {
                         setVisible(false);
                     } else {
 
-
                         Thread.sleep(new Random().nextInt(1000, 5829));
 
                         CPUActions ca = new CPUActions();
